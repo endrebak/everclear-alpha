@@ -1,0 +1,15 @@
+{:rule-file "examples/snakemake/rules.clj"
+ :wildcards-file "examples/snakemake/wildcards.edn"
+ :externals-file "examples/snakemake/external.edn"
+ :base-path "/Users/endrebakkenstovner/everclear/snakemake-flow/results"
+ :log-path "/Users/endrebakkenstovner/everclear/snakemake-flow/logs"
+
+ :resources {:download 1 :cpu 2}
+ :break false
+
+ ;; run next job when one finishes
+ :autorun true
+ :summarizers {"bam" "bb/logging/bam.clj"
+               "sam" "bb/logging/bam.clj"}}
+  ;; need to: check exit code
+  ;; check that all output-files were created

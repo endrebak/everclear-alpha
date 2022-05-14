@@ -1,0 +1,8 @@
+genome	sample	tissue
+hg19	A	brain
+hg19	B	brain
+hg19	A	blood
+hg19	B	blood
+hg38	A
+hg38	B
+hg38	C

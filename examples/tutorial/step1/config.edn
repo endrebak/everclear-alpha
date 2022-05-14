@@ -1,0 +1,5 @@
+{:rule-file "examples/tutorial/step1/rules.clj"
+ :externals-file "examples/tutorial/step1/externals.edn"
+ :wildcards-file "examples/tutorial/step1/wildcards.edn"
+ :base-path "/Users/endrebakkenstovner/everclear/tutorial/step1/results"
+ :log-path "/Users/endrebakkenstovner/everclear/tutorial/step1/logs"}

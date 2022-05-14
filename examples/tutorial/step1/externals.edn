@@ -1,0 +1,2 @@
+{:genome {{} "/Users/endrebakkenstovner/everclear/snakemake-flow/data/genome.fa"}
+ :fastq {{} "/Users/endrebakkenstovner/everclear/snakemake-flow/data/samples/A.fastq"}}
